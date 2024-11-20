@@ -8,6 +8,12 @@
 # testing
 /coverage
 
+# Ignore Python virtual environment
+venv/
+
+# Ignore PyCharm project files
+.idea/
+
 # production
 /build
 
@@ -17,6 +23,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
