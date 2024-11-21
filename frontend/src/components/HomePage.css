@@ -1,0 +1,37 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.home-form label {
+  font-size: 1.2rem;
+}
+
+.home-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.home-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home-form button:hover {
+  background-color: #0056b3;
+}
